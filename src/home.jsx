@@ -1,5 +1,6 @@
 import React from "react";
 import "./home.css";
+import CustomerReview from "./components/customerReview";
 import hdImage from './assets/yeezyboost.png';
 import GridItems from './components/gridItems'
 import aboutImage from './assets/products/8.png'
@@ -14,7 +15,7 @@ export const Home = () => {
         <div className="textHeader">
           <h1>Summer <span>To Shine.</span></h1>
           <p>The radiance lives on with the b-ball original. Crossing Hardwood comfort with off-court flair</p>
-          <a href='./pages/product-page/productPage' className="checkBttn">Check the Offers</a>
+          <a href='/Shop' className="checkBttn">Check the Offers</a>
         </div>
       </section>
       <section className="main">
@@ -34,6 +35,12 @@ export const Home = () => {
             <p>You can get to 30 percent discount from here</p>
           </div>
           <img src={aboutImage} />
+        </div>
+      </section>
+      <section className="review">
+        <h1>Customer <span>Review</span></h1>
+        <div className="csReview">
+          <CustomerReview />
         </div>
       </section>
     </div>

@@ -63,7 +63,7 @@
 /*Maine serction*/
 
 .main{
-    margin-top: 10rem;
+    margin-top: 12rem;
     text-align: center;
     align-items: center;
     color: #2b2d42;
@@ -80,7 +80,7 @@
 /*About Section*/
 
 .about{
-    margin-top: 5rem;
+    margin-top: 12rem;
 }
 
 .about .aboutUs {
@@ -149,4 +149,26 @@
     height: 400px;
     width: auto;
     transform: rotate(10deg);
+    -webkit-filter: drop-shadow(500px 500px 500px #222);
+    filter: drop-shadow(0px 10px 5px #222);
+}
+
+/*Customer Review Section*/
+
+.review{
+    margin-top: 12rem;
+}
+
+.review h1{
+    font-size: 3.5rem;
+    text-align: center;
+}
+.review span{
+    color: #FF6452;
+}
+
+.review .csReview{
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
 }
