@@ -30,10 +30,19 @@
 
 .product img {
   width: 400px;
+  transform: 300ms;
+  -webkit-filter: drop-shadow(500px 500px 500px #222);
+  filter: drop-shadow(-10px 10px 5px #222);
+}
+
+.product img:hover{
 }
 
 .product .description {
   text-align: center;
+  font-family: inherit;
+  font-weight: 800;
+  font-size: 18px;
 }
 
 .product:hover {
@@ -42,19 +51,23 @@
 }
 
 .addToCartBttn {
-  font-family: 'Poppins';
-  background-color: transparent;
-  border: 2px solid rgb(19, 19, 19);
-  min-width: 100px;
-  padding-left: 10px;
-  padding-right: 10px;
-  padding-top: 5px;
-  padding-bottom: 5px;
-  border-radius: 15px;
+  background: #fbca1f;
+  padding: 0.6em 1.3em;
+  font-family: inherit;
+  font-weight: 900;
+  font-size: 18px;
+  border: 3px solid black;
+  border-radius: 0.4em;
+  box-shadow: 0.1em 0.1em;
+  cursor: pointer;
 }
 
 .addToCartBttn:hover {
-  background-color: rgb(19, 19, 19);
-  color: white;
-  cursor: pointer;
+  transform: translate(-0.05em, -0.05em);
+  box-shadow: 0.15em 0.15em;
+}
+
+.addToCartBttn:active{
+  transform: translate(0.05em, 0.05em);
+  box-shadow: 0.05em 0.05em;
 }

@@ -12,7 +12,7 @@ export const Home = () => {
             <img src={hdImage} />
         </div>
         <div className="textHeader">
-          <h1>Summer To Shine</h1>
+          <h1>Summer <span>To Shine.</span></h1>
           <p>The radiance lives on with the b-ball original. Crossing Hardwood comfort with off-court flair</p>
           <a href='./pages/product-page/productPage' className="checkBttn">Check the Offers</a>
         </div>
@@ -25,7 +25,7 @@ export const Home = () => {
       </section>
       <section className="about">
         <div className="aboutUs">
-          <p>Abous</p>
+          <p>Abotus</p>
           <h1>Ue are Providing <span>High</span> Quality Shoes.</h1>
         </div>
         <div className="aboutImg">
