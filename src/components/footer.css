@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+.footer{
+    font-family: 'Poppins';
+    background-color: black;
+    color: white;
+    width: auto;
+    height: 7rem;
+}
+
+.footer .ft-raw{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    gap: 20px;
+}
+
+.footer .ft-raw a{
+    color: white;
+}
+
+.footer .ft-sec-raw{
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
+    margin-top: 1rem;
+    cursor: pointer;
+}
+
+.footer .ft-sec-raw a{
+    transition: 300ms;
+}
+
+.footer .ft-sec-raw a:hover{
+    color: rgb(184, 184, 184);
+}
