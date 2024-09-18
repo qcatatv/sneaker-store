@@ -6,6 +6,7 @@ import product5 from "./assets/products/5.png";
 import product6 from "./assets/products/6.png";
 import product7 from "./assets/products/7.png";
 import product8 from "./assets/products/8.png";
+import product9 from "./assets/products/9.png";
 
 export const PRODUCTS = [
   {
@@ -55,5 +56,11 @@ export const PRODUCTS = [
     productName: "Jordan 4 Retro Red Cement",
     price: 195.0,
     productImage: product8,
+  },
+  {
+    id: 9,
+    productName: "New Balance 1906R",
+    price: 119.0,
+    productImage: product9,
   },
 ];

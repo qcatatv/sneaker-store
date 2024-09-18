@@ -87,6 +87,7 @@
     position: absolute;
     padding: 0 5rem;
     right: 0;
+    margin-top: -3rem;
 }
 
 .about .aboutUs span{
@@ -95,6 +96,11 @@
 
 .about .aboutUs p{
     font-size: 2rem;
+}
+
+.about .aboutUs .aboutDesc{
+    width: 600px;
+    font-size: 1.5rem;
 }
 
 .about .aboutUs h1{
@@ -172,3 +178,98 @@
     justify-content: center;
     margin: 0 auto;
 }
+
+/*Newsletter section*/
+
+/* From Uiverse.io by alexruix */ 
+
+.newsletter{
+    font-family: 'Poppins';
+    padding: 0 10rem;
+    align-items: center;
+    margin-top: 10rem;
+    margin-bottom: 5rem;
+}
+
+.newsletter .newletter{
+    display: flex;
+}
+
+.newsletter .newletter h1{
+    width: 500px;
+    font-size: 3rem;
+    font-weight: 700;
+    margin-left: 10rem;
+}
+
+.newsletter .newletter h1 span{
+    color: #FF6452;
+}
+
+.nwlteer {
+    margin-left: 5rem;
+    width: 240px;
+    height: 254px;
+    padding: 0 15px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 12px;
+    background: #fbca1f;
+    padding: 0.6em 1.3em;
+    font-weight: 900;
+    border: 3px solid black;
+    border-radius: 0.4em;
+    box-shadow: 0.3em 0.3em;
+    text-decoration: none;
+    color: black;
+  }
+  
+  .nwlteer > * {
+    margin: 0;
+  }
+  
+  .nwlteer__title {
+    font-size: 23px;
+    font-weight: 900;
+    color: #333;
+  }
+  
+  .nwlteer__content {
+    font-size: 13px;
+    line-height: 18px;
+    color: #333;
+  }
+  
+  .nwlteer__form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .nwlteer__form input {
+    margin-top: 10px;
+    outline: 0;
+    background: rgb(255, 255, 255);
+    box-shadow: transparent 0px 0px 0px 1px inset;
+    padding: 0.6em;
+    border-radius: 14px;
+    border: 1px solid #333;
+    color: black;
+  }
+  
+  .nwlteer__form button {
+    border: 0;
+    background: #111;
+    color: #fff;
+    padding: 0.68em;
+    border-radius: 14px;
+    font-weight: bold;
+  }
+  
+  .sign-up:hover {
+    opacity: 0.8;
+  } 
+  

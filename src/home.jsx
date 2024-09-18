@@ -28,6 +28,7 @@ export const Home = () => {
         <div className="aboutUs">
           <p>Abotus</p>
           <h1>Ue are Providing <span>High</span> Quality Shoes.</h1>
+          <p className="aboutDesc">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
         </div>
         <div className="aboutImg">
           <div className="aboutCard">
@@ -41,6 +42,20 @@ export const Home = () => {
         <h1>Customer <span>Review</span></h1>
         <div className="csReview">
           <CustomerReview />
+        </div>
+      </section>
+      <section className="newsletter">
+        <div className="newletter">
+          <h1>Sign Up for <span>Updates</span> & Newsletters</h1>
+          <div class="nwlteer">
+            <span class="nwlteer__title">Subscribe</span>
+            <p class="nwlteer__content">Get fresh information about new discount cupons!
+            </p>
+            <div class="nwlteer__form">
+                <input placeholder="Your Email" type="text" />
+                <button class="sign-up"> Sign up</button>
+            </div>
+          </div>
         </div>
       </section>
     </div>
