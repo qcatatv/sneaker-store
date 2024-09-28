@@ -35,9 +35,6 @@
   filter: drop-shadow(-10px 10px 5px #222);
 }
 
-.product img:hover{
-}
-
 .product .description {
   text-align: center;
   font-family: inherit;
@@ -72,7 +69,8 @@
   box-shadow: 0.05em 0.05em;
 }
 
-/* Style for the brand filter bar */
+
+/*Filter Shoes*/
 .brandFilterBar {
   display: flex;
   justify-content: center;
@@ -81,7 +79,6 @@
   gap: 10px;
 }
 
-/* Style for individual brand buttons */
 .brandButton {
   padding: 10px 20px;
   font-size: 16px;
@@ -93,28 +90,13 @@
   transition: all 0.3s ease;
 }
 
-/* Hover effect for buttons */
 .brandButton:hover {
   background-color: #eaeaea;
   border-color: #333;
 }
 
-/* Active button (when selected) */
 .brandButton.active {
   background-color: #fbca1f;
   color: white;
   border-color: #fbca1f;
-}
-
-/* Responsive Design: Make buttons wrap on small screens */
-@media (max-width: 600px) {
-  .brandFilterBar {
-    flex-wrap: wrap;
-  }
-
-  .brandButton {
-    margin-bottom: 10px;
-    width: 100%;
-    text-align: center;
-  }
 }
